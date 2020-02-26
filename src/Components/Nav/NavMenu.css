@@ -1,0 +1,30 @@
+li{
+list-style: none;
+}
+.box{
+    border: 2px solid;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid aquamarine
+}
+.title{
+    position: relative;
+    display: flex;  
+}
+.dropdown{
+    position: absolute;
+    flex-direction: column;
+    width: 150px;
+    text-decoration: none;
+    display: none;
+    margin-top:20px;
+    margin-left: -40px;
+}
+.title:hover .dropdown{
+    display:block;
+}
+a{
+    text-decoration: none;
+}
